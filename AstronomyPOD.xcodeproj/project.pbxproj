@@ -1,0 +1,677 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5190E4A20460D8300303179 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5190E4920460D8300303179 /* AppDelegate.swift */; };
+		A5190E4C20460D8300303179 /* APODViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5190E4B20460D8300303179 /* APODViewController.swift */; };
+		A5190E4F20460D8300303179 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5190E4D20460D8300303179 /* Main.storyboard */; };
+		A5190E5120460D8300303179 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5190E5020460D8300303179 /* Assets.xcassets */; };
+		A5190E5420460D8300303179 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5190E5220460D8300303179 /* LaunchScreen.storyboard */; };
+		A5190E5F20460D8400303179 /* AstronomyPODTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5190E5E20460D8400303179 /* AstronomyPODTests.swift */; };
+		A5190E6A20460D8400303179 /* AstronomyPODUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5190E6920460D8400303179 /* AstronomyPODUITests.swift */; };
+		A5190E7C204628E600303179 /* APODModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5190E7B204628E600303179 /* APODModel.swift */; };
+		A56F09C120474978002F24E6 /* ProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56F09C020474978002F24E6 /* ProgressHUD.swift */; };
+		A56F09C420475262002F24E6 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56F09C320475262002F24E6 /* UIViewExtensions.swift */; };
+		A56F09C6204755ED002F24E6 /* Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56F09C5204755ED002F24E6 /* Misc.swift */; };
+		A56F09CA20475AAF002F24E6 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56F09C920475AAF002F24E6 /* Logger.swift */; };
+		A56F09DD2047930A002F24E6 /* UILableExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56F09DC2047930A002F24E6 /* UILableExtensions.swift */; };
+		A56F09DF2047B190002F24E6 /* APODRestAPIAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56F09DE2047B190002F24E6 /* APODRestAPIAdapter.swift */; };
+		A56F09E12047B95E002F24E6 /* APODModelStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56F09E02047B95E002F24E6 /* APODModelStrategy.swift */; };
+		A56F09E32047B98C002F24E6 /* MediaHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56F09E22047B98C002F24E6 /* MediaHandler.swift */; };
+		A56F09E52047BA3A002F24E6 /* ImageHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56F09E42047BA3A002F24E6 /* ImageHandler.swift */; };
+		A56F09E72047BAB5002F24E6 /* VideoHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56F09E62047BAB5002F24E6 /* VideoHandler.swift */; };
+		A56F09E92047BAD8002F24E6 /* UnknowHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56F09E82047BAD8002F24E6 /* UnknowHandler.swift */; };
+		A56F09ED2047C6F0002F24E6 /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56F09EC2047C6F0002F24E6 /* Media.swift */; };
+		F01D8A202054983D007DF7EF /* APODViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01D8A1F2054983D007DF7EF /* APODViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5190E5B20460D8400303179 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5190E3E20460D8300303179 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5190E4520460D8300303179;
+			remoteInfo = AstronomyPOD;
+		};
+		A5190E6620460D8400303179 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5190E3E20460D8300303179 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5190E4520460D8300303179;
+			remoteInfo = AstronomyPOD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A5190E4620460D8300303179 /* AstronomyPOD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AstronomyPOD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5190E4920460D8300303179 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A5190E4B20460D8300303179 /* APODViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODViewController.swift; sourceTree = "<group>"; };
+		A5190E4E20460D8300303179 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5190E5020460D8300303179 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5190E5320460D8300303179 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A5190E5520460D8300303179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5190E5A20460D8400303179 /* AstronomyPODTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstronomyPODTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5190E5E20460D8400303179 /* AstronomyPODTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronomyPODTests.swift; sourceTree = "<group>"; };
+		A5190E6020460D8400303179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5190E6520460D8400303179 /* AstronomyPODUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstronomyPODUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5190E6920460D8400303179 /* AstronomyPODUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronomyPODUITests.swift; sourceTree = "<group>"; };
+		A5190E6B20460D8400303179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5190E7B204628E600303179 /* APODModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APODModel.swift; sourceTree = "<group>"; };
+		A56F09C020474978002F24E6 /* ProgressHUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressHUD.swift; sourceTree = "<group>"; };
+		A56F09C320475262002F24E6 /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		A56F09C5204755ED002F24E6 /* Misc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Misc.swift; sourceTree = "<group>"; };
+		A56F09C920475AAF002F24E6 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		A56F09DC2047930A002F24E6 /* UILableExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILableExtensions.swift; sourceTree = "<group>"; };
+		A56F09DE2047B190002F24E6 /* APODRestAPIAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODRestAPIAdapter.swift; sourceTree = "<group>"; };
+		A56F09E02047B95E002F24E6 /* APODModelStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODModelStrategy.swift; sourceTree = "<group>"; };
+		A56F09E22047B98C002F24E6 /* MediaHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaHandler.swift; sourceTree = "<group>"; };
+		A56F09E42047BA3A002F24E6 /* ImageHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageHandler.swift; sourceTree = "<group>"; };
+		A56F09E62047BAB5002F24E6 /* VideoHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoHandler.swift; sourceTree = "<group>"; };
+		A56F09E82047BAD8002F24E6 /* UnknowHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnknowHandler.swift; sourceTree = "<group>"; };
+		A56F09EC2047C6F0002F24E6 /* Media.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Media.swift; sourceTree = "<group>"; };
+		F01D8A1F2054983D007DF7EF /* APODViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5190E4320460D8300303179 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5190E5720460D8400303179 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5190E6220460D8400303179 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5190E3D20460D8300303179 = {
+			isa = PBXGroup;
+			children = (
+				A5190E4820460D8300303179 /* AstronomyPOD */,
+				A5190E5D20460D8400303179 /* AstronomyPODTests */,
+				A5190E6820460D8400303179 /* AstronomyPODUITests */,
+				A5190E4720460D8300303179 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5190E4720460D8300303179 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5190E4620460D8300303179 /* AstronomyPOD.app */,
+				A5190E5A20460D8400303179 /* AstronomyPODTests.xctest */,
+				A5190E6520460D8400303179 /* AstronomyPODUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5190E4820460D8300303179 /* AstronomyPOD */ = {
+			isa = PBXGroup;
+			children = (
+				A56F09F22047CB4E002F24E6 /* Strategies */,
+				A56F09F12047CB35002F24E6 /* Handlers */,
+				A56F09F02047CB2A002F24E6 /* Adapters */,
+				A56F09C22047523C002F24E6 /* Decorators */,
+				A5190EF020463B8600303179 /* Utils */,
+				A5190E7A204627EC00303179 /* Controllers */,
+				A5190E79204627BC00303179 /* Models */,
+				A5190E4920460D8300303179 /* AppDelegate.swift */,
+				A5190E4D20460D8300303179 /* Main.storyboard */,
+				A5190E5020460D8300303179 /* Assets.xcassets */,
+				A5190E5220460D8300303179 /* LaunchScreen.storyboard */,
+				A5190E5520460D8300303179 /* Info.plist */,
+			);
+			path = AstronomyPOD;
+			sourceTree = "<group>";
+		};
+		A5190E5D20460D8400303179 /* AstronomyPODTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5190E5E20460D8400303179 /* AstronomyPODTests.swift */,
+				A5190E6020460D8400303179 /* Info.plist */,
+			);
+			path = AstronomyPODTests;
+			sourceTree = "<group>";
+		};
+		A5190E6820460D8400303179 /* AstronomyPODUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A5190E6920460D8400303179 /* AstronomyPODUITests.swift */,
+				A5190E6B20460D8400303179 /* Info.plist */,
+			);
+			path = AstronomyPODUITests;
+			sourceTree = "<group>";
+		};
+		A5190E79204627BC00303179 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A5190E7B204628E600303179 /* APODModel.swift */,
+				A56F09EC2047C6F0002F24E6 /* Media.swift */,
+				F01D8A1F2054983D007DF7EF /* APODViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A5190E7A204627EC00303179 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A5190E4B20460D8300303179 /* APODViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A5190EF020463B8600303179 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A56F09C920475AAF002F24E6 /* Logger.swift */,
+				A56F09C020474978002F24E6 /* ProgressHUD.swift */,
+				A56F09C5204755ED002F24E6 /* Misc.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A56F09C22047523C002F24E6 /* Decorators */ = {
+			isa = PBXGroup;
+			children = (
+				A56F09C320475262002F24E6 /* UIViewExtensions.swift */,
+				A56F09DC2047930A002F24E6 /* UILableExtensions.swift */,
+			);
+			path = Decorators;
+			sourceTree = "<group>";
+		};
+		A56F09F02047CB2A002F24E6 /* Adapters */ = {
+			isa = PBXGroup;
+			children = (
+				A56F09DE2047B190002F24E6 /* APODRestAPIAdapter.swift */,
+			);
+			path = Adapters;
+			sourceTree = "<group>";
+		};
+		A56F09F12047CB35002F24E6 /* Handlers */ = {
+			isa = PBXGroup;
+			children = (
+				A56F09E22047B98C002F24E6 /* MediaHandler.swift */,
+				A56F09E42047BA3A002F24E6 /* ImageHandler.swift */,
+				A56F09E62047BAB5002F24E6 /* VideoHandler.swift */,
+				A56F09E82047BAD8002F24E6 /* UnknowHandler.swift */,
+			);
+			path = Handlers;
+			sourceTree = "<group>";
+		};
+		A56F09F22047CB4E002F24E6 /* Strategies */ = {
+			isa = PBXGroup;
+			children = (
+				A56F09E02047B95E002F24E6 /* APODModelStrategy.swift */,
+			);
+			path = Strategies;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5190E4520460D8300303179 /* AstronomyPOD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5190E6E20460D8400303179 /* Build configuration list for PBXNativeTarget "AstronomyPOD" */;
+			buildPhases = (
+				A5190E4220460D8300303179 /* Sources */,
+				A5190E4320460D8300303179 /* Frameworks */,
+				A5190E4420460D8300303179 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AstronomyPOD;
+			productName = AstronomyPOD;
+			productReference = A5190E4620460D8300303179 /* AstronomyPOD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5190E5920460D8400303179 /* AstronomyPODTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5190E7120460D8400303179 /* Build configuration list for PBXNativeTarget "AstronomyPODTests" */;
+			buildPhases = (
+				A5190E5620460D8400303179 /* Sources */,
+				A5190E5720460D8400303179 /* Frameworks */,
+				A5190E5820460D8400303179 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5190E5C20460D8400303179 /* PBXTargetDependency */,
+			);
+			name = AstronomyPODTests;
+			productName = AstronomyPODTests;
+			productReference = A5190E5A20460D8400303179 /* AstronomyPODTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A5190E6420460D8400303179 /* AstronomyPODUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5190E7420460D8400303179 /* Build configuration list for PBXNativeTarget "AstronomyPODUITests" */;
+			buildPhases = (
+				A5190E6120460D8400303179 /* Sources */,
+				A5190E6220460D8400303179 /* Frameworks */,
+				A5190E6320460D8400303179 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5190E6720460D8400303179 /* PBXTargetDependency */,
+			);
+			name = AstronomyPODUITests;
+			productName = AstronomyPODUITests;
+			productReference = A5190E6520460D8400303179 /* AstronomyPODUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5190E3E20460D8300303179 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Sarkar;
+				TargetAttributes = {
+					A5190E4520460D8300303179 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					A5190E5920460D8400303179 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A5190E4520460D8300303179;
+					};
+					A5190E6420460D8400303179 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A5190E4520460D8300303179;
+					};
+				};
+			};
+			buildConfigurationList = A5190E4120460D8300303179 /* Build configuration list for PBXProject "AstronomyPOD" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5190E3D20460D8300303179;
+			productRefGroup = A5190E4720460D8300303179 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5190E4520460D8300303179 /* AstronomyPOD */,
+				A5190E5920460D8400303179 /* AstronomyPODTests */,
+				A5190E6420460D8400303179 /* AstronomyPODUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5190E4420460D8300303179 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5190E5420460D8300303179 /* LaunchScreen.storyboard in Resources */,
+				A5190E5120460D8300303179 /* Assets.xcassets in Resources */,
+				A5190E4F20460D8300303179 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5190E5820460D8400303179 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5190E6320460D8400303179 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5190E4220460D8300303179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A56F09DD2047930A002F24E6 /* UILableExtensions.swift in Sources */,
+				A56F09C120474978002F24E6 /* ProgressHUD.swift in Sources */,
+				A5190E4C20460D8300303179 /* APODViewController.swift in Sources */,
+				A5190E4A20460D8300303179 /* AppDelegate.swift in Sources */,
+				A56F09E32047B98C002F24E6 /* MediaHandler.swift in Sources */,
+				A56F09C6204755ED002F24E6 /* Misc.swift in Sources */,
+				A56F09DF2047B190002F24E6 /* APODRestAPIAdapter.swift in Sources */,
+				A56F09C420475262002F24E6 /* UIViewExtensions.swift in Sources */,
+				A56F09E92047BAD8002F24E6 /* UnknowHandler.swift in Sources */,
+				A5190E7C204628E600303179 /* APODModel.swift in Sources */,
+				A56F09E12047B95E002F24E6 /* APODModelStrategy.swift in Sources */,
+				A56F09E72047BAB5002F24E6 /* VideoHandler.swift in Sources */,
+				A56F09E52047BA3A002F24E6 /* ImageHandler.swift in Sources */,
+				A56F09CA20475AAF002F24E6 /* Logger.swift in Sources */,
+				F01D8A202054983D007DF7EF /* APODViewModel.swift in Sources */,
+				A56F09ED2047C6F0002F24E6 /* Media.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5190E5620460D8400303179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5190E5F20460D8400303179 /* AstronomyPODTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5190E6120460D8400303179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5190E6A20460D8400303179 /* AstronomyPODUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5190E5C20460D8400303179 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5190E4520460D8300303179 /* AstronomyPOD */;
+			targetProxy = A5190E5B20460D8400303179 /* PBXContainerItemProxy */;
+		};
+		A5190E6720460D8400303179 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5190E4520460D8300303179 /* AstronomyPOD */;
+			targetProxy = A5190E6620460D8400303179 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A5190E4D20460D8300303179 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5190E4E20460D8300303179 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A5190E5220460D8300303179 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5190E5320460D8300303179 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5190E6C20460D8400303179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A5190E6D20460D8400303179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5190E6F20460D8400303179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9BSS78JSK2;
+				INFOPLIST_FILE = AstronomyPOD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sarkar.AstronomyPOD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5190E7020460D8400303179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9BSS78JSK2;
+				INFOPLIST_FILE = AstronomyPOD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sarkar.AstronomyPOD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A5190E7220460D8400303179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9BSS78JSK2;
+				INFOPLIST_FILE = AstronomyPODTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sarkar.AstronomyPODTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AstronomyPOD.app/AstronomyPOD";
+			};
+			name = Debug;
+		};
+		A5190E7320460D8400303179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9BSS78JSK2;
+				INFOPLIST_FILE = AstronomyPODTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sarkar.AstronomyPODTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AstronomyPOD.app/AstronomyPOD";
+			};
+			name = Release;
+		};
+		A5190E7520460D8400303179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9BSS78JSK2;
+				INFOPLIST_FILE = AstronomyPODUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sarkar.AstronomyPODUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AstronomyPOD;
+			};
+			name = Debug;
+		};
+		A5190E7620460D8400303179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9BSS78JSK2;
+				INFOPLIST_FILE = AstronomyPODUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sarkar.AstronomyPODUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AstronomyPOD;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5190E4120460D8300303179 /* Build configuration list for PBXProject "AstronomyPOD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5190E6C20460D8400303179 /* Debug */,
+				A5190E6D20460D8400303179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5190E6E20460D8400303179 /* Build configuration list for PBXNativeTarget "AstronomyPOD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5190E6F20460D8400303179 /* Debug */,
+				A5190E7020460D8400303179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5190E7120460D8400303179 /* Build configuration list for PBXNativeTarget "AstronomyPODTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5190E7220460D8400303179 /* Debug */,
+				A5190E7320460D8400303179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5190E7420460D8400303179 /* Build configuration list for PBXNativeTarget "AstronomyPODUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5190E7520460D8400303179 /* Debug */,
+				A5190E7620460D8400303179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5190E3E20460D8300303179 /* Project object */;
+}
