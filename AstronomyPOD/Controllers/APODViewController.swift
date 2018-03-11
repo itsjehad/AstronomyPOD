@@ -25,8 +25,9 @@ class APODViewController: UIViewController {
                                                name: NSNotification.Name.UIApplicationWillEnterForeground,
                                                object: nil)
          */
+        self.setupLayout()
         //podImageView.translatesAutoresizingMaskIntoConstraints = false;
-        self.startAPODDownload()
+        //self.startAPODDownload()
     }
     
     override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
@@ -74,16 +75,30 @@ class APODViewController: UIViewController {
     @objc func appWillEnterForeground() {
         self.startAPODDownload()
     }
+    func  setupLayout() {
+        let topImageContainer: UIView = UIView()
+        topImageContainer.backgroundColor = .black
+        view.addSubview(topImageContainer)
+        topImageContainer.translatesAutoresizingMaskIntoConstraints = false;
+        topImageContainer.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
+        topImageContainer.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
+        topImageContainer.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
+        //progressHUD = progressHUD()
+        //progressHUD.translatesAutoresizingMaskIntoConstraints = false
+        
+    }
     
     func startAPODDownload(){
-        self.podImageTitle.isHidden = true
-        self.isFullScreenEnabled = false
-        progressHUD = ProgressHUD(text: "Downloding")
+        //self.podImageTitle.isHidden = true
+        //self.isFullScreenEnabled = false
+        progressHUD = ProgressHUD(text: "Downloading")
         self.view.addSubview(progressHUD)
+        /*
         DispatchQueue.global().async {
             let apodRestAPIAdapter = APODRestAPIAdapter(strUrl: APODViewController.apodURL)
             apodRestAPIAdapter.download(completionHandler: self.onAPODDownloadCompleted)
         }
+ */
         
     }
     
