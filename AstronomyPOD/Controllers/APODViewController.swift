@@ -25,7 +25,7 @@ class APODViewController: UIViewController {
                                                name: NSNotification.Name.UIApplicationWillEnterForeground,
                                                object: nil)
          */
-        
+        //podImageView.translatesAutoresizingMaskIntoConstraints = false;
         self.startAPODDownload()
     }
     
